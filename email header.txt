@@ -1,0 +1,120 @@
+Content-Type: multipart/alternative;
+ boundary="===============0797174203564489468=="
+Received: from CY1PR07MB2681.namprd07.prod.outlook.com (2603:10b6:208:134::27)
+ by MN2PR07MB6589.namprd07.prod.outlook.com with HTTPS via
+ MN2PR16CA0014.NAMPRD16.PROD.OUTLOOK.COM; Wed, 16 Oct 2019 13:19:00 +0000
+Received: from SN4PR0701CA0023.namprd07.prod.outlook.com
+ (2603:10b6:803:28::33) by CY1PR07MB2681.namprd07.prod.outlook.com
+ (2a01:111:e400:c60e::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2347.16;
+ Wed, 16 Oct 2019 13:18:59 +0000
+Received: from BL2NAM02FT035.eop-nam02.prod.protection.outlook.com
+ (2a01:111:f400:7e46::205) by SN4PR0701CA0023.outlook.office365.com
+ (2603:10b6:803:28::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2347.17 via Frontend
+ Transport; Wed, 16 Oct 2019 13:18:59 +0000
+Authentication-Results: spf=softfail (sender IP is 148.163.148.140)
+ smtp.mailfrom=thermofisher-corp.com; thermofisher.com;
+ dkim=pass (signature was verified) header.d=flockmail.com; thermofisher.com;
+ dmarc=fail action=none header.from=thermofisher-corp.com;
+ compauth=none reason=405
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ thermofisher-corp.com discourages use of 148.163.148.140 as permitted sender)
+Received: from mx0a-002a2102.pphosted.com (148.163.148.140) by
+ BL2NAM02FT035.mail.protection.outlook.com (10.152.77.157) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2367.14 via Frontend Transport; Wed, 16 Oct 2019 13:18:58 +0000
+Received: from pps.filterd (m0126706.ppops.net [127.0.0.1]) by
+ mx0a-002a2102.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id x9GCQRZ0061782
+ for <fabio.fernandes@thermofisher.com>; Wed, 16 Oct 2019 13:18:57 GMT
+Authentication-Results-Original: ppops.net; spf=permerror
+ smtp.mailfrom=stephen.williamson@thermofisher-corp.com;
+ dkim=pass header.s=default header.d=flockmail.com;
+ dmarc=none header.from=thermofisher-corp.com
+Received: from smtp-out.flockmail.com (mail4.out.flockmail.com [34.206.0.30])
+ by mx0a-002a2102.pphosted.com with ESMTP id 2vp19hsvx2-1
+ (version=TLSv1.2
+ cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT) for
+ <fabio.fernandes@thermofisher.com>; Wed, 16 Oct 2019 13:18:56 +0000
+Received: from smtp-out.flockmail.com (localhost [127.0.0.1]) by
+ smtp-out.flockmail.com (Postfix) with ESMTP id A248C120013 for
+ <fabio.fernandes@thermofisher.com>; Wed, 16 Oct 2019 13:18:55 +0000 (UTC)
+Received: from 10.10.30.174 (webmail1.out.flockmail.com [3.95.73.217]) by
+ smtp-out.flockmail.com (Postfix) with ESMTPSA id 6F6AA120002 for
+ <fabio.fernandes@thermofisher.com>; Wed, 16 Oct 2019 13:18:55 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=flockmail.com;
+ s=default; t=1571231935; bh=wtGEsafO0rN6DvlJ+D8/z7wceSPrvZnbSnSbR1UDJm4=;
+ h=Date:From:To:Subject:From;
+ b=nBIuvJwwuSeZsV2rGMGCvqe6szH82P/RiplXBl68oTRUYP50ZHS7ERYcUf6CknLlb
+ R2bCHl/9TNdHqUfD5B92S8kd7C8chb8BWIP7ERZtDP9+mkIuLWQe99LljblwV/dLaR
+ CeNiWDb4CSUhgptuwSlfTbJlE2sz4q1gQZ5BmmgI=
+Date: Wed, 16 Oct 2019 13:18:55 +0000 (UTC)
+Feedback-ID: :stephen.williamson@thermofisher-corp.com:thermofisher-corp.com:flockmailId
+From: "Williamson, Stephen" <stephen.williamson@thermofisher-corp.com>
+To: "fabio.fernandes@thermofisher.com" <fabio.fernandes@thermofisher.com>
+Message-ID: <869332871.592100824810497.1571231934906@mail.flock.com>
+Subject: RE: HQ INVOICE PAYMENT
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.3 cv=XtUrxmN9 c=1 sm=1 tr=0
+ a=2a6oyiWxhCovka6bAG3oaw==:117 a=2a6oyiWxhCovka6bAG3oaw==:17
+ a=CEWIc4RMnpUA:10 a=xBh4JgPmAAAA:8 a=LypTf_TuVWiDHM33CD4A:9
+ a=4kCfH9T_TZ8eBis2:21 a=nWIxJn9W1rZuyD6R:21 a=QEXdDO2ut3YA:10
+ a=2n9hz_q_64hUaHukHYJp:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-CLX-Response: 1TFkXBx8aEQpZRBdsEm9vRwVaclJzGhEKWFgXaQFhX1hMYlhIYWIRCnhOF2x
+ cQ39AS0dtW0NZEQp5TBdrbW5fBWBcYVhdeREKeUMXZEUcQBpIHX5CWHkRCkNIFx0dEQpDWRcZEh
+ EKWU0XZ2ZyEQpZSRcacRoQGncGBxkacRkQHXcGBxgaBhoRClleF2NjeREKSUYXXkJPWEdFTENZQ
+ k9YdUJFWV5PThgRCkNOF2RhfWsffxlpflhDTlNLHh4SEkVMfV4fX0ASdVNLW11hEQpYXBcfBBoE
+ GxIeBx8YTxkTTxgdBRsaBBsaGgQeEgQfEBseGh8aEQpeWRd/GWYbSBEKTVwXGBsdEQpMWhdObkV
+ paREKRVkXaREKTF8XegUFBQUFBQUFBUQRCkJPF21kWx1+aHlyZFxkEQpDWhcZHgQYGhwEGgQZGh
+ EKQl4XGxEKRF4XGBEKQlwXGhEKQkUXYQFZe00aAWBdUm8RCkJOF2xcQ39AS0dtW0NZEQpCTBdpA
+ WFfWExiWEhhYhEKQmwXYUhjc39+GRwZQm0RCkJAF2JvfXxsY35EUFtFEQpCWBd6UFNaY19rTWRD
+ XBEKTV4XBxsRCnBoF25YEntNRlJLbkVsEAcbGxsRCnBoF297QkZNSUNnTWBuEAccGhEKcGgXaBx
+ wQVtEZ2hjbmMQBxwaEQpwaBdhZx5EBUBZYERefBAHHBoRCnB9F2drX0JrYVp7R3wFEAcZGhEKcH
+ 8XYR1HU2tEZWZaY3IQBxscGhEKcF8XY2cef0ESUFlwQhoQBxsfExEKcGwXYmNTWFxwZXl7TEUQG
+ hEKcEMXZEZgcl1kRFJaH2EQBxsbEhEKbX4XBxsRClhNF0sRIA==
+X-CLX-Shades: MLX
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.95,
+ 1.0.8 definitions=2019-10-16_04:2019-10-16, 2019-10-16 signatures=0
+X-Proofpoint-Spam-Details: rule=inbound_notspam policy=inbound score=0
+ impostorscore=0 bulkscore=0 phishscore=0 lowpriorityscore=0 malwarescore=0
+ mlxlogscore=405 spamscore=0 mlxscore=0 suspectscore=1 priorityscore=1501
+ adultscore=0 clxscore=-50 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-1908290000 definitions=main-1910160112
+Return-Path: stephen.williamson@thermofisher-corp.com
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Oct 2019 13:18:58.2809 (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 80a049e7-5420-4044-6b65-08d7523b671e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: b67d722d-aa8a-4777-a169-ebeb7a6a3b67:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Office365-Filtering-HT: Tenant
+X-Forefront-Antispam-Report: CIP:148.163.148.140; IPV:CAL; SCL:-1; CTRY:US;
+ EFV:NLI; SFV:SKN; SFS:; DIR:INB; SFP:; SCL:-1; SRVR:CY1PR07MB2681;
+ H:mx0a-002a2102.pphosted.com; FPR:; SPF:None; LANG:en; 
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthSource: BL2NAM02FT035.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 80a049e7-5420-4044-6b65-08d7523b671e
+X-MS-TrafficTypeDiagnostic: CY1PR07MB2681:
+x-CloudRule: Post-Cutover IP Whitelist
+X-MS-Oob-TLC-OOBClassifiers: OLM:7691;
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Oct 2019 13:18:58.0357 (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 80a049e7-5420-4044-6b65-08d7523b671e
+X-MS-Exchange-CrossTenant-Id: b67d722d-aa8a-4777-a169-ebeb7a6a3b67
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR07MB2681
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.2367571
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.2347.014
+X-Microsoft-Antispam-Mailbox-Delivery: ucf:0; jmr:0; ex:0; auth:0; dest:I;
+ ENG:(750127)(520011016)(944506383)(944626516); 
+X-Microsoft-Antispam-Message-Info: sq9ed4MsCMRsz5nm9vn00/Ksn+uzpY9cEtf6XuDmstai6N/mp2eKzmU/+wtzWlAjUWU+uP7I+NDgWiJwtAHf4VqK4x5cEM5dqz9SNZgQH7FQfxmhLgRg2mxbtZzbwGn9D/kzrjEU7yIKV3J25Ko/T18mfOnoYHz4R0ekx/TsDl7K1Ws4SkCajF3O3Gkq4BcDclQ5z1t2of5XUFYqF9fsqZLr1orPQw8rgQl/uNmHsdMQym310h/M+Cof3ORLceWsLMmMa+gOKKvS1TqHKU/3q+1LhwkO5llj5IM4emKBDXCh0V2phqzz2JVKArXZ+pCy/ocT3sNOAWv/oCV5Hwq77LZ4/enfVKW7b+phSQf6HFYdML4fOoXBdf6go/+uj3BbDagO89IvPSkIEm3WYmbaW4LnTzlzdd3PN8MLeMZllrjhfeIm8HD5mElqZrP6wg5sKucW+vnDwvE3Yx+hbgzJbTH1GwJFxPq1/bUSl+ssTWSHiCjNbCaQRg8Yi0ombNyaZc8sfiEwKdmvD3Xi/IHHRxL7thZqwkvODs5lKI740Jy96WQjOvS7jDvS9GeOnhdic/jSLbLs+dsYHpClXACq+Q+R2joJ6Lk/FJuDqBQ9sTVySbadNXXQnDN+sQ6OyZDA++3wQYbUuYL8A00bOG1W8FT4FvV2bHFLZ62Ay35kA7f976okdb2ZwV4WSNsUzZiXQ+Ai/HMO6QMK4XgYlcWtQ1Kee2zboc/9b6YoLiQbug04FOzNHfvNOLjxsxMb35zFNMyutq2A76gtfeHeajLgT9KwmAKiw5425B/G3BWVTQAha/8l0PlJOcrGBfPneLPhUZZbnh8ElcQJcqgfep66YKfXkfvMuIM4kEA+4sycwBtW9qHyUegdhg6FKsaBLTwExvYyCh5ievxubnKK/ff1RGRrv61gZgugVaqIrFEN2xthBpsaVyYR8w4i9OHj5R9IS9i
+ lTUMpdmkZ0wTqha4WFzk1xW7EKtbZwVwUvvmqcgVNIyqZDHPe/Cz0fZw2mlAs0LnBMH7rU+3vFKQvdpYEfp/3hJUZwozb3kMfWLMR+C9F/ma+L33vU2Qmm60Mfi0nNEPWSAmvUKYe3GouqUSwQFD+W7FXh1/Gk08lCLejtB+eA7b8FLhXjbR8z0htW5sGF8KxA06vzSKswZFWD21qLSkFMrf/GGtu8OWVeAXWFCE=
+X-PhishAlarm-Format: PhishAlarm O365 Add-In;
+ MethodOfDetermination="FromProductName"
+MIME-Version: 1.0
+
